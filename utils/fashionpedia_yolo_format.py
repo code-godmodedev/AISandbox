@@ -79,7 +79,8 @@ class FashionpediaToYOLOFormat:
                 for item in set:
                     processed_images += 1
                     total_processed += 1
-                    print(f'processing {path} images {processed_images}/{len(set)}, total processed {total_processed}/{total_images}')
+                    if processed_images % 500 == 0:
+                        print(f'processing {path} images {processed_images}/{len(set)}, total processed {total_processed}/{total_images}')
                     height = item['height']
                     width = item["width"]
                     image_id = item["image_id"]
