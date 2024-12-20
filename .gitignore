@@ -2,8 +2,11 @@
 lightning_logs/
 **/lightning_logs/
 data/
+datasets/
 **/data/
+**/datasets/
 **/runs/
+**/results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
