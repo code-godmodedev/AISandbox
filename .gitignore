@@ -1,6 +1,10 @@
 .vscode/
 lightning_logs/
+**/lightning_logs/
 data/
+**/data/
+**/runs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
